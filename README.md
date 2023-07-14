@@ -1,2 +1,2 @@
 # atividade01jabr
-Primeira atividade do curso pela JA Brasil
+Primeira entrega de atividade do projeto ElasnaTech de programação full-stack, realizado pela JA Brasil e Grupo CCR.
