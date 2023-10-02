@@ -3,36 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+    <title>Currículo - Desenvolvimento Web</title>
     <link rel="shortcut icon" href="img/cv2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b9881f378.js" crossorigin="anonymous"></script>
 </head>
-<body style="background-color: #E0FFFF">
-    <header style="background-color: #B0E0E6; border-top-left-radius: 20px; border-bottom-left-radius: 20px; display: flex; flex-direction: row; justify-content: space-between; padding-left: 30px; padding-right: 40px">
-        <div class="títulos">
-            <h1 style="color:#0f4e4b; margin-bottom: 0cm">Iasmin de Borba Carqueija</h1>
-            <h2 style="color: #0f4e4b; margin-top: 0cm;">Desenvolvedora Web</h2>
+<body>
+    <header>
+        <div class="titulos">
+            <h1>Iasmin de Borba Carqueija</h1>
+            <h2>Desenvolvedora Web Júnior</h2>
         </div>    
-        <p>
-        <b>Matatu / Salvador - BA <br> 
-        Telefones: (71) 98148-1530, (71) 2137-0702<br>
-        Email: ibcarqueija@gmail.com</b>
-        </p>
+        <div id="contatos">
+            <strong>
+            <i class="fa-solid fa-location-dot"></i>: Matatu, Salvador - BA <br> 
+            <i class="fa-solid fa-envelope"></i>: ibcarqueija@gmail.com</strong> <br>
+            <a class="btn-info" title="Whatsapp" href="#"><i class="fa-brands fa-whatsapp fa-lg"></i></a>
+            <a class="btn-info" title="IasminCarqueija" target="_blank" href="https://github.com/IasminCarqueija"><i class="fa-brands fa-github-alt fa-lg"></i></a>
+            <a class="btn-info" title="iasmin-bcarqueija" target="_blank" href="https://www.linkedin.com/in/iasminbcarqueija/"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+        </div>
     </header>  
 
-    <main style="display: flex; flex-direction: row-reverse; justify-content: space-between;">
-        <div class="info-direita" style="background-color: #B0E0E6; padding-left: 20px; padding-right: 10px; max-width: 30%">
+    <main>
+        <div id="info-direita">
             <section>
                 <div>
-                    <h3 style="color: #0f4e4b; border-bottom-style: double">Resumo Profissional</h3>
+                    <h3 class="titulos">Resumo Profissional</h3>
                 </div>
-                <p>Estudante de Análise de Dados e Desenvolvimento Web full-stack, com ênfase em front-end. Tenho habilidade em planilhas e noção das linguagens HTML, CSS e JavaScript.</p>
+                <p>Estudante de Desenvolvimento Web full-stack, com ênfase em front-end. Tenho conhecimento em criação de páginas web com elaboração de layouts utilizando HTML e CSS ,e funções básicas em JavaScript.</p>
             </section>
             
             <section>
                 <div>
-                    <h3 style="color: #0f4e4b; border-bottom-style: double">Educação</h3>
+                    <h3 class="titulos">Educação</h3>
                 </div>
-                <ul>
+                <ul class="lista">
                     <li><b>2013 - 2018:</b> Graduação em Ciências Biológicas (Incompleto)<br>
                         <i>Universidade Federal da Bahia - UFBA, Salvador, Brasil.</i>
                     </li>
@@ -44,87 +52,94 @@
             
             <section>
                 <div>
-                    <h3 style="color: #0f4e4b; border-bottom-style: double">Idiomas</h3>
+                    <h3 class="titulos">Idiomas</h3>
                 </div>
-                <ul>
-                <li>Inglês: B2<br>
-                <i>Intermediário</i>
+                <ul class="lista">
+                <li>Inglês: Intermediário<br>
                 </li>    
                 </ul>
             </section>
             
             <section>
                 <div>
-                    <h3 style="color: #0f4e4b; border-bottom-style: double">Competências</h3>
+                    <h3 class="titulos">Competências</h3>
                 </div>
-                <ul>
+                <ul class="lista">
                     <li>HTML5</li>
                     <li>CSS3</li>
-                    <li>Planilhas</li>
+                    <li>JavaScript</li>
                     <li>Comunicação</li>
                     <li>Solução de Problemas</li>
-                    <li>Análise de Negócios</li> 
                 </ul>
             </section>
         </div>
     
-        <div class="info-esquerda" style="padding-left: 10px;">
+        <div id="info-esquerda">
             <section>
-                <div style="display: flex; align-items: center; justify-content: left; gap: 10px">
-                    <a href="https://www.flaticon.com/br/icones-gratis/curriculo" title="Currículo ícones criados por alkhalifi design - Flaticon" target="_blank">
-                        <img src="img/trabalho.png" alt="ícone trabalho" class="icon-section">
-                    </a>
-                    <h3 style="color: #0f4e4b">Experiência Profissional</h3>
+                <div>
+                    <i class="fa-solid fa-briefcase fa-lg"></i>
+                    <h3 class="titulos">Experiência Profissional</h3>
                 </div>
-                <ul>
+                <ul class="lista">
                     <li>01- 06/2022: <b>Estagiária em Análises Clínicas</b> <br>
                         <i>Carga horária: 400h<br>
                         Laboratório de Análises Clínicas Vida Diagnóstico, Lauro de Freitas, Bahia, Brasil</i>
-                        <p>Experiência em gerenciamento de posto de coleta de análises clínicas, atendimento ao cliente, cadastro e exames laboratoriais;
-                            Conhecimento de rotina laboratorial e análises de amostras biológicas.</p>
+                        <p>Experiência em gerenciamento de posto de coleta de análises clínicas, atendimento ao cliente, cadastro, exames laboratoriais e trabalho com prazos;<br>
+                        Conhecimento de rotina laboratorial e análises de amostras biológicas.</p>
                     </li>
                     <li>2016 - 2017: <b>Bolsista de Iniciação Científica pela CNPq</b> <br>
                         <i>Carga horária: 20h semanais | Regime: Dedicação exclusiva<br>
                         Universidade Federal da Bahia, Salvador, Brasil</i>
-                        <p>Experiência em leitura e análise de artigos, execução de experimentos, cooperatividade, apresentação de trabalhos, elaboração de slides e utilização de planilhas.</p>
+                        <p>Experiência em leitura e análise de artigos em português, espanhol e inglês, execução de experimentos, cooperatividade, apresentação de trabalhos, elaboração de slides e utilização de planilhas.</p>
                     </li>
                 </ul>
             </section>
         
             <section>
-                <div style="display: flex; align-items: center; justify-content: left; gap: 10px">
-                    <a href="https://www.flaticon.com/br/icones-gratis/livro" title="Livro ícones criados por Freepik - Flaticon" target="_blank">
-                        <img src="img/cursos.png" alt="ícone livro" class="icon-section">
-                    </a>    
-                    <h3 style="color: #0f4e4b">Cursos Complementares</h3>
+                <div>
+                    <i class="fa-solid fa-book-open-reader fa-lg"></i>
+                    <h3 class="titulos">Cursos Complementares</h3>
                 </div>
-                <ul>
-                    <li><b>07/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1_LaVmbrRshiQVQSrzeGYBIJr8SrMzMCY/view?usp=drive_link" title="Certificado em PDF" target="_blank"> Fazer perguntas para tomar decisões com base em dados.
-                        <img src="img/nova_pagina.png" alt="Nova aba">
+                <ul class="lista">
+                    <li><b>09/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1uTdj7pFE9g6YP1mznNKKxacFQwxte-hF/view?usp=sharing" title="Certificado em PDF" target="_blank"> Meu Primeiro Site - Turma 1 - Elas Na Tech.
+                        <i class="fa-solid fa-up-right-from-square fa-xs"></i>
                     </a> <br>
-                        <i>Carga horária: 18h (aproximadamente) | Autorizado pela Google e ministrado através do Coursera.</i>
+                        <i>Carga horária: 29h |  Inspira Já - JA Brasil.</i>
                     </li>
                     <br>
-                    <li><b>07/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1LNECu6PV4EEPgoVTSMXJJ7WWJMr4H2Sm/view?usp=drive_link" title="Certificado em PDF" target="_blank"> Fundamentos: dados, dados, em todos os lugares.
-                        <img src="img/nova_pagina.png" alt="Nova aba">
+                    <li><b>09/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1W2j-yCgVPnQUNOhgC9lDpcqsjh-Q7xkc/view?usp=sharing" title="Certificado em PDF" target="_blank"> Fundamentos de Desenvolvimento Web.
+                        <i class="fa-solid fa-up-right-from-square fa-xs"></i>
                     </a> <br>
-                        <i>Carga horária: 19h (aproximadamente) | Autorizado pela Google e ministrado através do Coursera.</i>
+                        <i>Carga horária: 5h |  IBM SkillsBuild.</i>
+                    </li>
+                    <br>
+                    <li><b>09/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1doDQxPOjSUrlae-rLAroYKKY9frhMGji/view?usp=sharing" title="Certificado em PDF" target="_blank"> Noções básicas sobre GIT e GITHUB.
+                        <i class="fa-solid fa-up-right-from-square fa-xs"></i>
+                    </a> <br>
+                        <i>Carga horária: 5h |  IBM SkillsBuild.</i>
+                    </li>
+                    <br>
+                    <li><b>09/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1Jx22gqtqpJhtM06JRT_04RZCt0Q2YHUM/view?usp=sharing" title="Certificado em PDF" target="_blank"> Versionamento de Código com Git
+                        e GitHub.
+                        <i class="fa-solid fa-up-right-from-square fa-xs"></i>
+                    </a> <br>
+                        <i>Carga horária: 2h | DIO.</i>
                     </li>
                     <br>
                     <li><b>06/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1bZ8wq_Fwj2s-TtI-PHrCscWtftkFM__3/view?usp=drive_link" title="Certificado em PDF" target="_blank"> Noções básicas da programação.
-                        <img src="img/nova_pagina.png" alt="Nova aba">
+                        <i class="fa-solid fa-up-right-from-square fa-xs"></i>
                     </a> <br> 
                         <i>Carga horária: 5h | IBM SkillsBuild.</i>
                     </li>
                     <br>
                     <li><b>05/2023:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1RzNLMVYwSg_VLJJDlwYpb7EJS2ZA09Ct/view?usp=drive_link" title="Certificado em PDF" target="_blank"> Noções básicas da internet.
-                        <img src="img/nova_pagina.png" alt="Nova aba">
+                        <i class="fa-solid fa-up-right-from-square fa-xs"></i>
                     </a> <br> 
                         <i>Carga horária: 3h | IBM SkillsBuild.</i>
                     </li>
                     <br>
                     <li><b>06/2022:</b> Curso (Online) | <a href="https://drive.google.com/file/d/1pyoQxzzjUX5stGqSa5qx6ZM_9DjWomOe/view?usp=drive_link" title="Certificado em PDF" target="_blank"> Introdução a Lógica de Programação 1.
-                        <img src="img/nova_pagina.png" alt="Nova aba">
+                        <i class="fa-solid fa-up-right-from-square fa-xs"></i>
                     </a> <br>
                         <i>Carga horária: 5h | EuCurso.</i>
                     </li>
@@ -136,13 +151,11 @@
             </section>
 
             <section>
-                <div style="display: flex; align-items: center; justify-content: left; gap: 10px">
-                    <a href="https://www.flaticon.com/br/icones-gratis/palestra" title="Palestra ícones criados por Vector Stall - Flaticon" target="_blank">
-                        <img src="img/palestra.png" alt="ícone apresentação" class="icon-section">
-                    </a>  
-                    <h3 style="color: #0f4e4b">Comunicação</h3>
+                <div>
+                    <i class="fa-solid fa-comments fa-lg"></i>
+                    <h3 class="titulos">Comunicação</h3>
                 </div>
-                <ul>
+                <ul class="lista">
                     <li>2016: <b>Apresentação oral em congresso</b> <br>
                         Atrativos alimentares para armadilhas de monitoramento/ controle de adultos de moscas-das-frutas<br>
                         SEMENTE: Seminário Integrado de  Ensino, Pesquisa e Extensão | UFBA-Universidade Federal da Bahia<br>

@@ -1,0 +1,62 @@
+body {
+    background-color: #E0FFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+header {
+    background-color: #B0E0E6;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+.titulos {
+    color:#0f4e4b;
+}
+header h1 {
+    margin-bottom: 0cm;
+}
+header h2 {
+    margin-top: 0cm;
+}
+#contatos {
+    padding: 20px 5px;
+}
+a{
+    color: #000;
+}
+.btn-info {
+    padding: 0 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.lista {
+    list-style-type: circle;
+}
+main #info-direita {
+    background-color: #B0E0E6;
+    padding-left: 20px;
+    padding-right: 10px;
+    max-width: 30%;
+}
+#info-direita h3 {
+    border-bottom-style: double
+}
+
+main #info-esquerda {
+    padding-left: 10px;
+}
+#info-esquerda div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
